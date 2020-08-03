@@ -1,7 +1,7 @@
-FROM debian:wheezy
+FROM debian:jessie
 MAINTAINER Nikolay Garbuzov <g.m91snik@gmail.com>
 
-ENV THRIFT_VERSION 0.9.0
+ENV THRIFT_VERSION 0.10.0
 
 RUN buildDeps=" \
 	automake \
